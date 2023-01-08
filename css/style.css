@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 95%;
+}
+
+html {
+  block-size: border-box;
+}
+
+body {
+  font-family: “Trebuchet MS”, sans-serif;
+  background-color: #1f368d;
+  font-size: 16px;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews {
+  width: 70%;
+}
+
+.logo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0, center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.image {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+
+.border {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #D3D3D3;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.headline {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.additional_info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.list-of-strong-sides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 2em;
+  padding: 5px;
+  float: left;
+  width: 250px;
+  height: 500px;
+  background-color: #D3D3D3;
+  border: 2px solid #D3D3D3;
+  border-radius: 1em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container {
+  float: left;
+  width: 33.333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 30px;
+}
+
+.item .icon {
+  width: 100%;
+}
+
+.text {
+  font-size: 16px;
+  text-align: left;
+}
+
+.user {
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user-image {
+  float: left;
+  width: 30%;
+}
+
+.data {
+  float: left;
+  text-align: left;
+  margin-left: 0.5em;
+}
+
+.comment {
+  margin-top: 0.5em;
+  float: left;
+}
+
+.user-header {
+  float: left;
+}
+
+.footer {
+  padding-bottom: 0;
+}
+
+.footer .footer_headline {
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 24px;
+  text-align: center;
+  background-color: #D3D3D3;
+}
+
+.new-comment {
+  float: left;
+  width: 750px;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  background-color: #D3D3D3;
+  margin-bottom: 1em;
+}
+
+.header-comment {
+  font-size: 24px;
+}
+
+.greetings {
+  font-size: 14px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.form-info {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.user-name {
+  background-color: white;
+  width: 730px;
+  height: 35px;
+}
+
+.text-form {
+  background-color: white;
+  width: 730px;
+  height: 200px;
+  margin-bottom: 1em;
+}
+
+.user-and-data {
+  text-align: left;
+  float: left;
+  width: 70%;
+}
+
+@media (max-width: 1514px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 760px) {
+  .new-comment {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1049px) {
+  .container {
+    width: 100%;
+  }
+
+  .user-name {
+    width: 90%;
+  }
+
+  .text-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 651px) {
+  .list-of-strong-sides {
+    flex-direction: column;
+  }
+
+  .reviews {
+    width: 100%;
+  }
+}
